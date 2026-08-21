@@ -1,0 +1,514 @@
+[
+  {
+    "id": "tab-power",
+    "label": "Poder adquisitivo",
+    "order": 0,
+    "headings": [
+      "Cómo leerlo",
+      "Fuentes y descargas",
+      "Cálculos clave del tab"
+    ],
+    "chartIds": [
+      "powerChart"
+    ],
+    "noteCount": 22
+  },
+  {
+    "id": "tab-rates",
+    "label": "Tasas e inflación",
+    "order": 1,
+    "headings": [
+      "Antes de mirar los números: todos los $ están puestos del lado del hogar",
+      "¿El balance ampliado de crédito y ahorro mejoró o empeoró?",
+      "Cómo leer el signo en este gráfico técnico",
+      "Pinza financiera actual",
+      "Desviación técnica ≠ impacto hogar",
+      "Dos preguntas, dos lecturas del signo",
+      "Alcance del indicador",
+      "Fuentes y descargas",
+      "Cálculos clave del tab"
+    ],
+    "chartIds": [
+      "nominalChart",
+      "realChart",
+      "ratesAccumChart",
+      "ratesMoneyChart",
+      "ratesFintechChart"
+    ],
+    "noteCount": 34
+  },
+  {
+    "id": "tab-pres",
+    "label": "Inflación por presidencia",
+    "order": 2,
+    "headings": [
+      "Fuentes y descargas",
+      "Cálculos clave del tab"
+    ],
+    "chartIds": [
+      "presChart"
+    ],
+    "noteCount": 27
+  },
+  {
+    "id": "tab-poverty",
+    "label": "Pobreza: nivel absoluto",
+    "order": 3,
+    "headings": [
+      "Pobreza: qué pasó realmente ♡",
+      "Qué muestran los datos",
+      "Fuentes y descargas",
+      "Cálculos clave del tab"
+    ],
+    "chartIds": [
+      "povertyChart",
+      "povertyMandateChart"
+    ],
+    "noteCount": 16
+  },
+  {
+    "id": "tab-social",
+    "label": "Asistencia social / transferencias",
+    "order": 4,
+    "headings": [
+      "Inversión social no contributiva nacional: serie + seguimiento ♡",
+      "Qué muestra al comparar gobiernos",
+      "Eduardo Duhalde",
+      "Néstor Kirchner",
+      "Cristina Fernández",
+      "Mauricio Macri",
+      "Alberto Fernández",
+      "Javier Milei",
+      "Fuentes y descargas",
+      "Cálculos clave del tab"
+    ],
+    "chartIds": [
+      "socialLongChart",
+      "socialChangeChart",
+      "socialRecentChart"
+    ],
+    "noteCount": 12
+  },
+  {
+    "id": "tab-gini",
+    "label": "Desigualdad (Gini)",
+    "order": 5,
+    "headings": [
+      "Desigualdad: coeficiente de Gini ♡",
+      "Cómo leerlo",
+      "Eduardo Duhalde",
+      "Néstor Kirchner",
+      "Cristina Fernández",
+      "Mauricio Macri",
+      "Alberto Fernández",
+      "Javier Milei",
+      "Fuentes y descargas",
+      "Cálculos clave del tab"
+    ],
+    "chartIds": [
+      "giniChart",
+      "giniSameQuarterChart"
+    ],
+    "noteCount": 28
+  },
+  {
+    "id": "tab-structure",
+    "label": "Más allá de la pobreza",
+    "order": 6,
+    "headings": [
+      "Más allá de la pobreza: vulnerabilidad y estructura social ♡",
+      "Qué significa cada capa",
+      "¿Qué tan consolidada fue la mejora?",
+      "Fuentes y descargas",
+      "Lecturas clave del tab"
+    ],
+    "chartIds": [
+      "structureCabaChart",
+      "structureMobilityChart",
+      "structureRegionChart",
+      "structureNseChart"
+    ],
+    "noteCount": 10
+  },
+  {
+    "id": "tab-family",
+    "label": "¿Cuánto necesita una familia?",
+    "order": 7,
+    "headings": [
+      "¿Cuánto necesita realmente una familia? ♡",
+      "Fuentes y descargas",
+      "Cálculos clave del tab"
+    ],
+    "chartIds": [
+      "familyRegionChart",
+      "familyGeoChart",
+      "familyThresholdChart",
+      "housingChart",
+      "familyNonOwnerChart"
+    ],
+    "noteCount": 16
+  },
+  {
+    "id": "tab-risk",
+    "label": "Riesgo país",
+    "order": 8,
+    "headings": [
+      "Riesgo país: costo de la desconfianza financiera ♡",
+      "Para leerlo como elector",
+      "Fuentes y descargas"
+    ],
+    "chartIds": [
+      "riskChart"
+    ],
+    "noteCount": 7
+  },
+  {
+    "id": "tab-bigmac",
+    "label": "Índice Big Mac",
+    "order": 9,
+    "headings": [
+      "Índice Big Mac: un espejo simple del peso frente al dólar ♡",
+      "Cómo leerlo · guía rápida 🍔",
+      "Raw USD",
+      "Ajustado por PIB",
+      "Ejemplo rápido",
+      "Argentina",
+      "Estados Unidos",
+      "Resultado",
+      "Fuentes y descargas"
+    ],
+    "chartIds": [
+      "bigMacChart",
+      "bigMacFxChart"
+    ],
+    "noteCount": 17
+  },
+  {
+    "id": "tab-wholesale",
+    "label": "Precios mayoristas",
+    "order": 10,
+    "headings": [
+      "Precios mayoristas: antes de la góndola ♡",
+      "Qué mirar como elector",
+      "Fuentes y descargas"
+    ],
+    "chartIds": [
+      "wholesaleChartScroll",
+      "wholesaleChart",
+      "wholesaleCurrentChart"
+    ],
+    "noteCount": 17
+  },
+  {
+    "id": "tab-health-education",
+    "label": "Salud y educación",
+    "order": 11,
+    "headings": [
+      "APNF provincial · provisorio",
+      "Primer trimestre · provisorio",
+      "Presupuesto Abierto · act. 13/08/2026",
+      "Fuentes y descarga"
+    ],
+    "chartIds": [
+      "healthEducationChart",
+      "healthEducationExecutionChart",
+      "healthEducationBridgeChart"
+    ],
+    "noteCount": 11
+  },
+  {
+    "id": "tab-consumption",
+    "label": "Consumo",
+    "order": 12,
+    "headings": [
+      "🍷 Vino · consumo per cápita",
+      "🚗 Autos 0 km · anclas verificadas",
+      "Fuentes y descargas"
+    ],
+    "chartIds": [
+      "consumptionChart",
+      "meatConsumptionChart",
+      "beefTradeoffChart",
+      "physicalCategoryChangeChart",
+      "dairyEggChart",
+      "fuelCategoryChart",
+      "vehicleConsumptionChart",
+      "meatLongHistoryChart",
+      "wineHistoryChart",
+      "vehicleHistoryChart"
+    ],
+    "noteCount": 8
+  },
+  {
+    "id": "tab-work",
+    "label": "Trabajo",
+    "order": 13,
+    "headings": [
+      "Fuentes y descarga"
+    ],
+    "chartIds": [
+      "workChart",
+      "workSectorChart"
+    ],
+    "noteCount": 12
+  },
+  {
+    "id": "tab-investment",
+    "label": "Inversión",
+    "order": 14,
+    "headings": [
+      "Fuentes y descarga"
+    ],
+    "chartIds": [
+      "investmentChart"
+    ],
+    "noteCount": 9
+  },
+  {
+    "id": "tab-housing",
+    "label": "Vivienda",
+    "order": 15,
+    "headings": [
+      "Fuentes y descarga"
+    ],
+    "chartIds": [
+      "housingTenureChart",
+      "housingHistoryChart",
+      "housingBuildChart"
+    ],
+    "noteCount": 8
+  },
+  {
+    "id": "tab-growth",
+    "label": "Crecimiento",
+    "order": 16,
+    "headings": [
+      "Fuentes y descargas"
+    ],
+    "chartIds": [
+      "growthChart"
+    ],
+    "noteCount": 8
+  },
+  {
+    "id": "tab-emae",
+    "label": "Actividad real · ¿crecimiento o rebote?",
+    "order": 17,
+    "headings": [
+      "Actividad real · ¿crecimiento o rebote? ♡",
+      "A. Nivel mensual de actividad",
+      "B. Actividad por habitante",
+      "C. Resumen por mandato y tiempo bajo el agua",
+      "Cicatriz acumulada desde nov-2023",
+      "D. Ventana espejo antes / después",
+      "F. Rebote vs crecimiento nuevo",
+      "E. Drawdowns históricos",
+      "Descargas, método y trazabilidad"
+    ],
+    "chartIds": [
+      "emaeMainChart",
+      "emaePcChart",
+      "emaeMandateChart",
+      "emaeScarChart",
+      "emaeMirrorChart",
+      "emaeReboundChart",
+      "emaeDrawdownChart"
+    ],
+    "noteCount": 9
+  },
+  {
+    "id": "tab-morosidad",
+    "label": "Morosidad · ¿la gente puede pagar sus deudas?",
+    "order": 18,
+    "headings": [
+      "Morosidad · ¿la gente puede pagar sus deudas? ♡",
+      "1 · Morosidad bancaria de hogares",
+      "2 · Por tipo de crédito: aperturas realmente publicadas",
+      "3 · Bancos vs PNFC / Fintech",
+      "4 · Saldo acumulado contra la norma histórica",
+      "5 · Ventana espejo: ANTES, DESPUÉS y DIFERENCIAL",
+      "6 · Personas: snapshots oficiales, no pesos",
+      "7 · Tasas reales vs mora: exploración con rezagos",
+      "Lectura automática · en criollo"
+    ],
+    "chartIds": [
+      "morBankChart",
+      "morBankProductsChart",
+      "morPnfcProductsChart",
+      "morCompareChart",
+      "morCumulativeChart",
+      "morMirrorChart",
+      "morPersonsChart",
+      "morCorrelationChart"
+    ],
+    "noteCount": 9
+  },
+  {
+    "id": "tab-pendulo",
+    "label": "Péndulo distributivo",
+    "order": 19,
+    "headings": [
+      "Péndulo distributivo ♡",
+      "Si el ingreso generado fueran $100…",
+      "El péndulo distributivo argentino",
+      "Últimas tres gestiones · mismo tramo metodológico",
+      "¿Quién se queda con el ingreso generado?",
+      "¿Hacia dónde se movió el péndulo durante cada gobierno?",
+      "¿Cuánta verdad tiene la frase?",
+      "Lo que sí podemos medir",
+      "Lo que esta métrica no puede demostrar",
+      "Discurso vs resultado",
+      "Cómo leer este gráfico",
+      "Fuentes, datos y auditoría"
+    ],
+    "chartIds": [
+      "pendMainChart",
+      "pendSharesChart",
+      "pendMandateChart"
+    ],
+    "noteCount": 11
+  },
+  {
+    "id": "tab-debt-public",
+    "label": "Deuda pública",
+    "order": 20,
+    "headings": [
+      "Fuentes y descarga"
+    ],
+    "chartIds": [
+      "debtPublicChart",
+      "debtCreditorChart",
+      "debtCurrencyChart"
+    ],
+    "noteCount": 8
+  },
+  {
+    "id": "tab-fiscal",
+    "label": "Resultado fiscal",
+    "order": 21,
+    "headings": [
+      "Fuentes y descarga"
+    ],
+    "chartIds": [],
+    "noteCount": 6
+  },
+  {
+    "id": "tab-trade",
+    "label": "Balanza comercial",
+    "order": 22,
+    "headings": [
+      "Fuentes y descarga"
+    ],
+    "chartIds": [
+      "tradeChart"
+    ],
+    "noteCount": 8
+  },
+  {
+    "id": "tab-bcra",
+    "label": "BCRA · reservas y dólar",
+    "order": 23,
+    "headings": [
+      "Fuentes y descargas"
+    ],
+    "chartIds": [
+      "bcraReserveChart",
+      "bcraDebtCompareChart",
+      "bcraInterventionChart",
+      "bcraFactorsChart",
+      "bcraFxChart",
+      "bcraRatesChart"
+    ],
+    "noteCount": 8
+  },
+  {
+    "id": "tab-debt-spiral",
+    "label": "Espiral de deuda",
+    "order": 24,
+    "headings": [
+      "Fuentes y cálculos de los simuladores familiares"
+    ],
+    "chartIds": [
+      "debtSimChart",
+      "debtClassChart"
+    ],
+    "noteCount": 9
+  },
+  {
+    "id": "tab-program",
+    "label": "Programa y escenarios",
+    "order": 25,
+    "headings": [
+      "Fuentes y supuestos",
+      "Cálculos clave del simulador soberano"
+    ],
+    "chartIds": [
+      "sovereignSustainChart",
+      "sovereignReserveFlowChart"
+    ],
+    "noteCount": 20
+  },
+  {
+    "id": "tab-wealth-contribution",
+    "label": "Grandes fortunas",
+    "order": 26,
+    "headings": [
+      "Grandes fortunas y aporte voluntario progresivo",
+      "1 · Carga individual por nivel de patrimonio",
+      "2 · ¿Quién financia cuánto?",
+      "3 · Participación vs tasa requerida",
+      "Distribución del esfuerzo",
+      "Comparación histórica · Aporte Solidario 2020/21",
+      "Qué es oficial y qué estimamos"
+    ],
+    "chartIds": [
+      "wealthBurdenChart",
+      "wealthFinanceChart",
+      "wealthParticipationChart"
+    ],
+    "noteCount": 11
+  },
+  {
+    "id": "tab-milei-cost",
+    "label": "Lo que te robó Milei",
+    "order": 27,
+    "headings": [
+      "Estrés financiero · morosidad",
+      "Pinza financiera · cuánto descontaría si se soluciona",
+      "Cómo se arma la cuenta madre de $18,43 billones",
+      "Cómo entra cada componente en la cuenta madre",
+      "Todo medido contra el agujero bruto de $18,43 billones"
+    ],
+    "chartIds": [],
+    "noteCount": 9
+  },
+  {
+    "id": "tab-meli-benefits",
+    "label": "Privilegios fiscales",
+    "order": 28,
+    "headings": [
+      "Fuentes y auditoría"
+    ],
+    "chartIds": [
+      "meliBenefitsChart",
+      "meliArsChart",
+      "meliOtherBenefitsChart"
+    ],
+    "noteCount": 11
+  },
+  {
+    "id": "tab-casta",
+    "label": "La casta",
+    "order": 29,
+    "headings": [
+      "Fuentes y cálculos"
+    ],
+    "chartIds": [
+      "castaSalaryLevelChart",
+      "castaInflationChart",
+      "castaMandateChart",
+      "castaSideChart"
+    ],
+    "noteCount": 8
+  }
+]

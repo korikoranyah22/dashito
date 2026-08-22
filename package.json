@@ -20,10 +20,7 @@
     "react-router-dom": "^7.13.1"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.37.1",
-    "@openai/sites-vite-plugin": "0.1.0",
     "@vitejs/plugin-react": "6.0.2",
-    "vite": "8.0.13",
-    "wrangler": "4.92.0"
+    "vite": "8.0.13"
   }
 }

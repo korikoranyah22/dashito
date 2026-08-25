@@ -1,0 +1,47 @@
+name: Backup fuentes 2026-08-25
+
+on:
+  push:
+    branches:
+      - backup-fuentes-20260825
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Escribir metadatos del respaldo
+        shell: bash
+        run: |
+          printf '%s\n' "Dashito / Inflación Kawaii — respaldo de fuentes" > BACKUP_2026-08-25.txt
+          printf '%s\n' "Repositorio: $GITHUB_REPOSITORY" >> BACKUP_2026-08-25.txt
+          printf '%s\n' "Rama: $GITHUB_REF_NAME" >> BACKUP_2026-08-25.txt
+          printf '%s\n' "Commit: $GITHUB_SHA" >> BACKUP_2026-08-25.txt
+          printf '%s\n' "Generado (UTC): $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> BACKUP_2026-08-25.txt
+          printf '%s\n' "Incluye el repositorio completo de esta rama y la actualización de fuentes/metodologías del 25-08-2026." >> BACKUP_2026-08-25.txt
+
+      - name: Crear ZIP completo
+        shell: bash
+        run: |
+          zip -r -9 dashito-backup-fuentes-2026-08-25.zip . \
+            -x '.git/*' \
+            -x 'dashito-backup-fuentes-2026-08-25.zip'
+          sha256sum dashito-backup-fuentes-2026-08-25.zip > dashito-backup-fuentes-2026-08-25.zip.sha256
+
+      - name: Subir respaldo
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashito-backup-fuentes-2026-08-25
+          path: |
+            dashito-backup-fuentes-2026-08-25.zip
+            dashito-backup-fuentes-2026-08-25.zip.sha256
+          if-no-files-found: error
+          retention-days: 7
